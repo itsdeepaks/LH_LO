@@ -13,7 +13,6 @@ import { Reveal } from "@/components/home/Reveal";
 import { SiteNav } from "@/components/site/SiteNav";
 import { SiteFooterMain } from "@/components/site/SiteFooterMain";
 import appCss from "../styles.css?url";
-import { reportLovableError } from "../lib/lovable-error-reporting";
 
 function NotFoundComponent() {
   return (
@@ -135,9 +134,6 @@ function NotFoundContent() {
 function ErrorComponent({ error, reset }: { error: Error; reset: () => void }) {
   console.error(error);
   const router = useRouter();
-  useEffect(() => {
-    reportLovableError(error, { boundary: "tanstack_root_error_component" });
-  }, [error]);
 
   return (
     <div className="flex min-h-screen items-center justify-center bg-background px-4">
@@ -187,7 +183,10 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
         content: "Claims intelligence for healthcare revenue-cycle teams.",
       },
       { property: "og:type", content: "website" },
+      { property: "og:image", content: "/og-image.png" },
       { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:image", content: "/og-image.png" },
+      { name: "generator", content: "Online Scope Studio" },
     ],
     links: [
       {
@@ -201,6 +200,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
         href: "https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600&family=DM+Sans:wght@400;500;700&family=Newsreader:wght@400;500&family=IBM+Plex+Mono:wght@400;500&display=swap",
       },
       { rel: "icon", href: "/favicon.svg", type: "image/svg+xml" },
+      { rel: "apple-touch-icon", href: "/apple-touch-icon.png" },
     ],
   }),
 

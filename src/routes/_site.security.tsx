@@ -1,6 +1,6 @@
 import { Link, createFileRoute } from "@tanstack/react-router";
 import { Reveal } from "@/components/home/Reveal";
-import { CtaBand } from "@/components/site/CtaBand";
+import { ClosingCta } from "@/components/site/ClosingCta";
 import { PageHero } from "@/components/site/PageHero";
 import { SectionHeading } from "@/components/site/SectionHeading";
 import { SectionShell } from "@/components/site/SectionShell";
@@ -128,8 +128,7 @@ function SecurityPage() {
         </div>
       </SectionShell>
 
-      <CtaBand
-        tone="cream"
+      <ClosingCta
         heading="Have a security question before you share anything?"
         body="Send it through the contact form and we will answer it directly."
       />

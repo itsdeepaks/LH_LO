@@ -9,6 +9,7 @@ import {
   RecoveryQueue,
 } from "@/components/product/Visuals";
 import { Reveal } from "@/components/home/Reveal";
+import { ClosingCta } from "@/components/site/ClosingCta";
 import { CtaBand } from "@/components/site/CtaBand";
 import { PageHero } from "@/components/site/PageHero";
 import { SectionShell } from "@/components/site/SectionShell";
@@ -313,8 +314,7 @@ function PlatformPage() {
         </Reveal>
       </SectionShell>
 
-      <CtaBand
-        tone="cream"
+      <ClosingCta
         heading="See what your own claims reveal."
         body="Start with a sample of claims and remittances. We’ll arrange a secure channel separately and walk through the findings."
         secondaryTo="/security"

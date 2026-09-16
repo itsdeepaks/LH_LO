@@ -1,5 +1,4 @@
 import { Link } from "@tanstack/react-router";
-import dashboard from "@/assets/dashboard.webp.asset.json";
 import { Reveal } from "@/components/home/Reveal";
 
 export function ClaimsHero() {
@@ -57,7 +56,7 @@ export function ClaimsHero() {
             </div>
             <div className="overflow-hidden rounded-xl border border-ink/8 bg-white shadow-[0_1px_2px_rgba(12,32,24,0.06)] sm:rounded-2xl">
               <img
-                src={dashboard.url}
+                src="/dashboard.webp"
                 alt="Liquidity Health dashboard showing claim totals, revenue by month and claims needing attention"
                 width={1030}
                 height={536}

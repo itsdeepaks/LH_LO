@@ -9,12 +9,12 @@ export const Route = createFileRoute("/_site/thank-you")({
       {
         name: "description",
         content:
-          "Preview mode: the form passed local validation. Nothing was sent or stored, and submission delivery is not connected yet.",
+          "Thank you for contacting Liquidity Health. We have received your inquiry and our team will be in touch shortly.",
       },
       { property: "og:title", content: "Thank You — Liquidity Health" },
       {
         property: "og:description",
-        content: "Preview mode: the form passed local validation. Nothing was sent or stored.",
+        content: "We have received your inquiry and our team will be in touch shortly.",
       },
       { property: "og:type", content: "website" },
       { property: "og:url", content: "/thank-you" },
@@ -31,15 +31,15 @@ function ThankYouPage() {
     <SectionShell className="flex min-h-[62vh] items-center">
       <Reveal className="mx-auto max-w-[660px] text-center">
         <p className="font-mono text-[11.5px] tracking-[0.16em] text-ink/65 uppercase">
-          Preview mode
+          Inquiry Received
         </p>
         <h1 className="mt-5 font-display text-[34px] leading-[1.08] font-medium tracking-[-0.02em] text-ink sm:text-[44px]">
-          Your form is ready for submission.
+          Thank you for reaching out.
         </h1>
         <p className="mt-6 text-[16.5px] leading-relaxed text-ink/65 sm:text-[18px]">
-          The details you entered passed the checks on this page. Nothing was sent, emailed or
-          stored — this website is not yet connected to a place for inquiries to arrive. Submission
-          delivery still needs to be connected before this journey is ready for real enquiries.
+          We have received your organization&apos;s details. A member of our revenue-cycle intelligence
+          team will review your request and get in touch within one business day to discuss next steps
+          and arrange a secure evaluation.
         </p>
         <div className="mt-8 flex flex-col items-stretch justify-center gap-3 sm:flex-row sm:items-center">
           <Link

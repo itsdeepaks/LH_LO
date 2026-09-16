@@ -1,29 +1,82 @@
-# Welcome to your Lovable project
+# Liquidity Health
 
-This project was built with [Lovable](https://lovable.dev).
+> **Claims Intelligence for Healthcare Revenue-Cycle Teams**  
+> Engineered & Developed by **Online Scope Studio**
 
-## Build with Lovable
+Liquidity Health connects complex healthcare claims, electronic remittance advices (835s), and payer reimbursement terms to surface underpayments, revenue leakage, and priority claims requiring immediate review.
 
-Open your project in the [Lovable editor](https://lovable.dev) and keep building.
+---
 
-- **Ship faster**: describe what you want to build and Lovable handles the code.
-- **Stay in sync**: connect the project to GitHub and every change made in Lovable is committed straight to your repository.
-- **Full ownership**: this code is yours. Push to your repository and your changes sync back into Lovable, ready for your next prompt.
+## 🌟 Key Features
 
-## Development
+- **Payer Remittance Analysis**: Automatically correlates 835 remittance data with fee schedules and contracts.
+- **Leakage Detection**: Identifies systematic underpayments, unbundling issues, and payer-specific adjudication variances.
+- **Editorial Design System**: Crafted with a bespoke typography hierarchy, soft tonal surfaces, and subtle interactive animations.
+- **High-Performance SSR**: Server-Side Rendered on TanStack Start for near-instant first contentful paint and enterprise SEO readiness.
 
-Prefer working locally? You need Node.js and npm — [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
+---
 
-```sh
-git clone <this-repository-url>
-cd <repository-name>
-npm i
+## 🛠️ Technology Stack
+
+- **Framework**: [TanStack Start](https://tanstack.com/start) + [React 19](https://react.dev/)
+- **Routing**: [TanStack Router](https://tanstack.com/router)
+- **Styling**: [Tailwind CSS v4](https://tailwindcss.com/)
+- **Build Engine**: [Vite](https://vitejs.dev/) + [Nitro](https://nitro.unjs.io/)
+- **Language**: TypeScript (Strict Mode)
+- **Deployment**: Vercel
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- [Node.js](https://nodejs.org/) (v20 or higher recommended)
+- `npm` (v10+)
+
+### Installation
+
+```bash
+# Clone the repository
+git clone <repository-url>
+cd LH_LO
+
+# Install dependencies
+npm install
+```
+
+### Local Development
+
+```bash
 npm run dev
 ```
 
-## Built with
+The application will start locally at `http://localhost:3000` (or the next available port).
 
-- TanStack Start
-- TypeScript
-- React
-- Tailwind CSS
+### Building for Production
+
+```bash
+npm run build
+```
+
+This compiles client assets and server functions ready for hosting.
+
+---
+
+## 🌐 Deployment to Vercel
+
+This repository is pre-configured for seamless deployment to **Vercel**:
+
+1. Push your repository to GitHub / GitLab.
+2. Import the repository into the **Vercel Dashboard**.
+3. Framework Preset: **Other** (Vite / Nitro is automatically detected).
+4. Build Command: `npm run build`
+5. Output Directory: `.output` (or default Vercel Nitro build output)
+6. Optional Environment Variables:
+   - `VITE_LOGO_DEV_API_KEY`: API token for logo.dev integration in client showcases.
+
+---
+
+## 📄 License & Attribution
+
+Designed and developed by **Online Scope Studio** for **Liquidity Health, LLC**. All rights reserved.

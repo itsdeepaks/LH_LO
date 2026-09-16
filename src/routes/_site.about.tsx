@@ -1,6 +1,6 @@
 import { Link, createFileRoute } from "@tanstack/react-router";
 import { Reveal } from "@/components/home/Reveal";
-import { CtaBand } from "@/components/site/CtaBand";
+import { ClosingCta } from "@/components/site/ClosingCta";
 import { PageHero } from "@/components/site/PageHero";
 import { SectionHeading } from "@/components/site/SectionHeading";
 import { SectionShell } from "@/components/site/SectionShell";
@@ -151,8 +151,7 @@ function AboutPage() {
         </div>
       </SectionShell>
 
-      <CtaBand
-        tone="cream"
+      <ClosingCta
         heading="Start with your own claims."
         body="Tell us about your organization and we’ll arrange a secure way to review a sample."
         secondaryTo="/security"
