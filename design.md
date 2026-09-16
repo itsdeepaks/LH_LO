@@ -1,4 +1,4 @@
-# Liquidity Health — Design System
+# Liquidity Health - Design System
 
 The frozen homepage is the approved visual baseline and target design system for
 the website. Existing inner pages may retain legacy compatibility styles until
@@ -9,12 +9,12 @@ All core values live as tokens in `src/styles.css`. Hard-coded colours are allow
 only in the narrow, listed cases below.
 
 This document has two parts:
-**Part A — Approved frozen homepage / target site-wide system** (sections 1–12) and
-**Part B — Current legacy inner-page compatibility state** (section 13).
+**Part A - Approved frozen homepage / target site-wide system** (sections 1–12) and
+**Part B - Current legacy inner-page compatibility state** (section 13).
 
 ---
 
-# Part A — Approved frozen homepage / target site-wide system
+# Part A - Approved frozen homepage / target site-wide system
 
 ## 1. Geometry
 
@@ -34,7 +34,7 @@ Families: **Outfit** (`font-display`, headings), **DM Sans** (`font-sans`, body)
 and data figures, uppercase, wide tracking). Wordmark is Outfit, uppercase,
 `tracking-[0.14em]`.
 
-Frozen homepage hierarchy — sizes are role-based, not one shared heading size:
+Frozen homepage hierarchy - sizes are role-based, not one shared heading size:
 
 | Role | Base | sm | lg |
 | --- | --- | --- | --- |
@@ -42,7 +42,7 @@ Frozen homepage hierarchy — sizes are role-based, not one shared heading size:
 | Most major H2s | ~28–29px | 32–34px | 40px |
 | ThreeWays H2 | 29px | 34px | 44px |
 | ClosingCta H2 | 34px | 42px | 52px |
-| Content-card headings | 19–20px | — | — |
+| Content-card headings | 19–20px | - | - |
 | Marketing body | ~14.5–16.5px depending on role | | |
 | Eyebrow / label | 11–11.5px uppercase mono | | |
 
@@ -87,19 +87,19 @@ This is not permission for decorative gradients elsewhere.
 
 Cards are deliberately not identical. The approved tiers:
 
-- **Hero** — large framed product object, strongest depth (MacBook-style window:
+- **Hero** - large framed product object, strongest depth (MacBook-style window:
   light grey frame, traffic-light dots, inset white content, mint radial glow).
-- **WhyLiquidity** — primary informational content cards: `rounded-xl`,
+- **WhyLiquidity** - primary informational content cards: `rounded-xl`,
   `border-line`, cream fill on a surface section, `lift` interaction.
-- **ThreeWays** — expressive product/content cards: `rounded-lg`, mint-tinted fill
+- **ThreeWays** - expressive product/content cards: `rounded-lg`, mint-tinted fill
   and mint-tinted border, `lift` interaction.
-- **ZeroToScale** — compact supporting tiles: `rounded-lg`, surface fill,
+- **ZeroToScale** - compact supporting tiles: `rounded-lg`, surface fill,
   borderless, `lift` interaction.
-- **MultiBank** — borderless product wells: `rounded-lg`, asymmetric bleed
+- **MultiBank** - borderless product wells: `rounded-lg`, asymmetric bleed
   treatment.
-- **TreasuryPartner** — white product wells on surface: `rounded-lg`, shadow-only
+- **TreasuryPartner** - white product wells on surface: `rounded-lg`, shadow-only
   hover (no translate), intentionally different from `lift`.
-- **DeveloperBand** — dark technical panel: `rounded-xl`, `white/10` hairline,
+- **DeveloperBand** - dark technical panel: `rounded-xl`, `white/10` hairline,
   non-card interaction model.
 
 ## 6. Radius
@@ -109,10 +109,10 @@ Base token `--radius: 0.625rem` (10px) drives the scale: `sm 6`, `md 8`, `lg 10`
 
 Functional tiers:
 
-- Hero frame — `2xl` / `3xl`.
-- Primary content cards and technical panels — often `xl`.
-- Product wells and compact tiles — typically `lg`.
-- Mock UI — uses the token scale where practical.
+- Hero frame - `2xl` / `3xl`.
+- Primary content cards and technical panels - often `xl`.
+- Product wells and compact tiles - typically `lg`.
+- Mock UI - uses the token scale where practical.
 
 Avoid hard-coded radii where an existing token is pixel-equivalent.
 
@@ -149,10 +149,10 @@ loops, and the mobile logo `marquee`. Every primitive respects
 
 ## 11. Buttons
 
-- **Primary** — `bg-ink text-on-ink`, hover `bg-ink-soft`, `rounded-md`,
+- **Primary** - `bg-ink text-on-ink`, hover `bg-ink-soft`, `rounded-md`,
   `px-3.5–5`, `py-1.5–3`, 13–15px medium, plus the `press` class.
-- **Secondary** — `border border-ink/25 text-ink`, hover `bg-surface`.
-- **On dark** — `border border-white/30 text-white`, hover `bg-white/10`.
+- **Secondary** - `border border-ink/25 text-ink`, hover `bg-surface`.
+- **On dark** - `border border-white/30 text-white`, hover `bg-white/10`.
 - Focus is always visible: `focus-visible:ring-2` in ink/mint, never `outline-none`
   alone.
 
@@ -166,7 +166,7 @@ loops, and the mobile logo `marquee`. Every primitive respects
 
 ---
 
-# Part B — Current legacy inner-page compatibility state
+# Part B - Current legacy inner-page compatibility state
 
 ## 13. Legacy / migration note
 

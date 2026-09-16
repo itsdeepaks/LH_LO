@@ -18,13 +18,13 @@ import { SectionHeading } from "@/components/site/SectionHeading";
 export const Route = createFileRoute("/_site/platform")({
   head: () => ({
     meta: [
-      { title: "Platform — Liquidity Health" },
+      { title: "Platform - Liquidity Health" },
       {
         name: "description",
         content:
           "Claims intelligence for healthcare revenue-cycle teams: claims and remittances in, claim-level matching, a reimbursement record, and prioritized findings your team can act on.",
       },
-      { property: "og:title", content: "Platform — Liquidity Health" },
+      { property: "og:title", content: "Platform - Liquidity Health" },
       {
         property: "og:description",
         content:
@@ -228,7 +228,7 @@ function PlatformPage() {
           <Reveal>
             <SectionHeading
               title="One claim, one reimbursement record"
-              intro="A single record brings together what was billed, what reimbursement terms indicate to expect, what the payer allowed, what was paid, and the adjustments behind the difference — with potential findings clearly separated from recovered revenue."
+              intro="A single record brings together what was billed, what reimbursement terms indicate to expect, what the payer allowed, what was paid, and the adjustments behind the difference - with potential findings clearly separated from recovered revenue."
             />
           </Reveal>
           <Reveal>

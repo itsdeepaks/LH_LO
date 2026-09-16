@@ -15,7 +15,7 @@ import { ClaimsAnalysisClosing } from "@/components/home/ClaimsAnalysisClosing";
 export const Route = createFileRoute("/_site/")({
   head: () => ({
     meta: [
-      { title: "Liquidity Health — Claims Intelligence for Revenue Cycle Teams" },
+      { title: "Liquidity Health - Claims Intelligence for Revenue Cycle Teams" },
       {
         name: "description",
         content:
@@ -23,7 +23,7 @@ export const Route = createFileRoute("/_site/")({
       },
       {
         property: "og:title",
-        content: "Liquidity Health — Claims Intelligence for Revenue Cycle Teams",
+        content: "Liquidity Health - Claims Intelligence for Revenue Cycle Teams",
       },
       {
         property: "og:description",

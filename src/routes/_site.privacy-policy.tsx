@@ -6,13 +6,13 @@ import { Reveal } from "@/components/home/Reveal";
 export const Route = createFileRoute("/_site/privacy-policy")({
   head: () => ({
     meta: [
-      { title: "Privacy Policy — Liquidity Health" },
+      { title: "Privacy Policy - Liquidity Health" },
       {
         name: "description",
         content:
           "Privacy policy and data governance commitments for Liquidity Health's revenue-cycle intelligence platform.",
       },
-      { property: "og:title", content: "Privacy Policy — Liquidity Health" },
+      { property: "og:title", content: "Privacy Policy - Liquidity Health" },
       {
         property: "og:description",
         content: "Privacy policy and data governance commitments for Liquidity Health.",

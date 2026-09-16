@@ -7,17 +7,17 @@ import { SectionShell } from "@/components/site/SectionShell";
 export const Route = createFileRoute("/_site/contact")({
   head: () => ({
     meta: [
-      { title: "Analyze My Claims for Free — Liquidity Health" },
+      { title: "Analyze My Claims for Free - Liquidity Health" },
       {
         name: "description",
         content:
           "Tell us about your organization and we will review a sample of your remittances and share what we find. No documents are collected through this form.",
       },
-      { property: "og:title", content: "Analyze My Claims for Free — Liquidity Health" },
+      { property: "og:title", content: "Analyze My Claims for Free - Liquidity Health" },
       {
         property: "og:description",
         content:
-          "Free claims analysis, demos, partnership, sales and investor enquiries — one short form.",
+          "Free claims analysis, demos, partnership, sales and investor enquiries - one short form.",
       },
       { property: "og:type", content: "website" },
       { property: "og:url", content: "/contact" },

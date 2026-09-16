@@ -14,17 +14,17 @@ import { SectionShell } from "@/components/site/SectionShell";
 export const Route = createFileRoute("/_site/how-it-works")({
   head: () => ({
     meta: [
-      { title: "How It Works — Liquidity Health" },
+      { title: "How It Works - Liquidity Health" },
       {
         name: "description",
         content:
           "Provide, extract, match, compare, act: how Liquidity Health turns claims and remittances into a prioritized review worklist.",
       },
-      { property: "og:title", content: "How It Works — Liquidity Health" },
+      { property: "og:title", content: "How It Works - Liquidity Health" },
       {
         property: "og:description",
         content:
-          "From claims and remittances to a prioritized worklist — the five steps behind claim-level intelligence.",
+          "From claims and remittances to a prioritized worklist - the five steps behind claim-level intelligence.",
       },
       { property: "og:type", content: "website" },
       { property: "og:url", content: "/how-it-works" },
@@ -146,7 +146,7 @@ function HowItWorksPage() {
 
       <ClosingCta
         heading="See this run on a sample of your own claims."
-        body="No documents are collected through this website — we arrange a secure channel separately."
+        body="No documents are collected through this website - we arrange a secure channel separately."
         secondaryTo="/security"
         secondaryLabel="How we handle data"
       />

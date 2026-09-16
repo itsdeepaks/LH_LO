@@ -1,4 +1,4 @@
-# Engineering Guidelines — Online Scope Studio
+# Engineering Guidelines - Online Scope Studio
 
 This repository hosts the web platform for **Liquidity Health**, engineered and maintained by **Online Scope Studio**.
 

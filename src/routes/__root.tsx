@@ -45,7 +45,7 @@ function NotFoundContent() {
         <div>
           <Reveal>
             <p className="font-mono text-[11.5px] tracking-[0.16em] text-ink/55 uppercase">
-              Error 404 — Page not found
+              Error 404 - Page not found
             </p>
           </Reveal>
 
@@ -80,7 +80,7 @@ function NotFoundContent() {
           </Reveal>
         </div>
 
-        {/* Floating "claim lookup" card — illustrative, on-brand 404 visual */}
+        {/* Floating "claim lookup" card - illustrative, on-brand 404 visual */}
         <Reveal from="scale" delay={350} className="relative mx-auto w-full max-w-[420px]">
           <div
             aria-hidden="true"

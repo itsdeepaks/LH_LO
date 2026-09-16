@@ -13,7 +13,7 @@ function FindMock() {
           <div className="h-full w-[68%] rounded-full bg-ink" />
         </div>
         <div className="mt-3 rounded-md border border-line px-2 py-1 text-[7.5px] text-ink/60">
-          Illustrative example — not live data
+          Illustrative example - not live data
         </div>
       </div>
     </div>

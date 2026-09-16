@@ -133,7 +133,7 @@
   --on-ink: oklch(0.975 0.006 95);
   --on-ink-muted: oklch(0.82 0.014 150);
 
-  /* Liquidity Health brand system — aligned to the home page palette */
+  /* Liquidity Health brand system - aligned to the home page palette */
   --lh-ink: var(--ink);
   --lh-midnight: var(--ink-soft);
   --lh-mist: var(--surface);

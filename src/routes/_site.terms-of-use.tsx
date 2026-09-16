@@ -6,13 +6,13 @@ import { Reveal } from "@/components/home/Reveal";
 export const Route = createFileRoute("/_site/terms-of-use")({
   head: () => ({
     meta: [
-      { title: "Terms of Use — Liquidity Health" },
+      { title: "Terms of Use - Liquidity Health" },
       {
         name: "description",
         content:
           "Terms and conditions governing access to and use of the Liquidity Health website and platform preview.",
       },
-      { property: "og:title", content: "Terms of Use — Liquidity Health" },
+      { property: "og:title", content: "Terms of Use - Liquidity Health" },
       {
         property: "og:description",
         content: "Terms and conditions governing access to and use of the Liquidity Health website.",

@@ -5,7 +5,7 @@ import { Reveal } from "@/components/home/Reveal";
  * Migrated inner-page hero.
  *
  * Deliberately subordinate to the frozen homepage Hero: no product frame,
- * no glow, no gradients — cream section, 1200px canvas, controlled reading
+ * no glow, no gradients - cream section, 1200px canvas, controlled reading
  * widths and a single restrained reveal of the whole content group.
  */
 export function PageHero({

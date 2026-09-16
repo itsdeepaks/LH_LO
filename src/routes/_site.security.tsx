@@ -8,13 +8,13 @@ import { SectionShell } from "@/components/site/SectionShell";
 export const Route = createFileRoute("/_site/security")({
   head: () => ({
     meta: [
-      { title: "Security — Liquidity Health" },
+      { title: "Security - Liquidity Health" },
       {
         name: "description",
         content:
           "How Liquidity Health handles claim data: HIPAA-aligned practices, identifier removal before storage, per-organisation isolation, and encryption in transit and at rest.",
       },
-      { property: "og:title", content: "Security — Liquidity Health" },
+      { property: "og:title", content: "Security - Liquidity Health" },
       {
         property: "og:description",
         content:

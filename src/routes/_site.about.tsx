@@ -8,13 +8,13 @@ import { SectionShell } from "@/components/site/SectionShell";
 export const Route = createFileRoute("/_site/about")({
   head: () => ({
     meta: [
-      { title: "About — Liquidity Health" },
+      { title: "About - Liquidity Health" },
       {
         name: "description",
         content:
           "Liquidity Health is a claims intelligence platform for US healthcare revenue-cycle teams, connecting claim, remittance and reimbursement evidence.",
       },
-      { property: "og:title", content: "About — Liquidity Health" },
+      { property: "og:title", content: "About - Liquidity Health" },
       {
         property: "og:description",
         content: "Why Liquidity Health exists: a paid claim is not always the whole story.",
@@ -95,7 +95,7 @@ function AboutPage() {
                 the difference becomes reviewable.
               </p>
               <p>
-                That is the loop we are closing — connect the evidence, explain the difference,
+                That is the loop we are closing - connect the evidence, explain the difference,
                 prioritize the work, and learn from the outcome.
               </p>
             </div>

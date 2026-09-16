@@ -6,7 +6,7 @@ import { cn } from "@/lib/utils";
  *
  * Establishes the frozen-homepage marketing canvas for inner pages:
  * 1200px container, 20px / 32px gutters and the py-16 / lg:py-24 rhythm.
- * Intentionally minimal — no heading, CTA, card, grid or motion APIs.
+ * Intentionally minimal - no heading, CTA, card, grid or motion APIs.
  */
 export function SectionShell({
   children,

@@ -5,13 +5,13 @@ import { SectionShell } from "@/components/site/SectionShell";
 export const Route = createFileRoute("/_site/thank-you")({
   head: () => ({
     meta: [
-      { title: "Thank You — Liquidity Health" },
+      { title: "Thank You - Liquidity Health" },
       {
         name: "description",
         content:
           "Thank you for contacting Liquidity Health. We have received your inquiry and our team will be in touch shortly.",
       },
-      { property: "og:title", content: "Thank You — Liquidity Health" },
+      { property: "og:title", content: "Thank You - Liquidity Health" },
       {
         property: "og:description",
         content: "We have received your inquiry and our team will be in touch shortly.",

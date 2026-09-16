@@ -4,7 +4,7 @@
  * payers are fictional and patient identifiers are masked.
  */
 
-export const ILLUSTRATIVE_NOTE = "Illustrative example — not live data";
+export const ILLUSTRATIVE_NOTE = "Illustrative example - not live data";
 
 export const overviewMetrics = [
   { label: "Total claims", value: "1,862" },
@@ -28,7 +28,7 @@ export const featuredClaim = {
   paid: "$10,320",
   variance: "$2,160",
   variancePct: "17.3% below expectation",
-  status: "Review — Contract rate mismatch",
+  status: "Review - Contract rate mismatch",
 };
 
 export type ExplorerRow = {
