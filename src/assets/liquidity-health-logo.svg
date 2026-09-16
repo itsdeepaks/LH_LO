@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="191" height="23" viewBox="0 0 191 23" fill="none" role="img" aria-labelledby="title">
+  <title id="title">Liquidity Health</title>
+  <g transform="translate(0 1.5)">
+    <rect y="10" width="3" height="10" rx="1.5" fill="#0C1D12"/>
+    <rect x="6" y="4" width="3" height="16" rx="1.5" fill="#5FE87C"/>
+    <rect x="12" width="3" height="20" rx="1.5" fill="#0C1D12"/>
+  </g>
+  <text x="25" y="17.5" fill="#0C1D12" font-family="Outfit, Arial, sans-serif" font-size="15" font-weight="500" letter-spacing="2.1">LIQUIDITY HEALTH</text>
+</svg>
