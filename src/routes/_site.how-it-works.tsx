@@ -27,10 +27,11 @@ export const Route = createFileRoute("/_site/how-it-works")({
           "From claims and remittances to a prioritized worklist - the five steps behind claim-level intelligence.",
       },
       { property: "og:type", content: "website" },
-      { property: "og:url", content: "/how-it-works" },
+      { property: "og:url", content: "https://lh.onlinescope.in/how-it-works" },
       { name: "twitter:card", content: "summary_large_image" },
+      { name: "robots", content: "noindex, nofollow" },
     ],
-    links: [{ rel: "canonical", href: "/how-it-works" }],
+    links: [{ rel: "canonical", href: "https://lh.onlinescope.in/how-it-works" }],
   }),
   component: HowItWorksPage,
 });

@@ -31,11 +31,11 @@ function LogoItem({ brand, hidden }: { brand: (typeof BRANDS)[number]; hidden?: 
 
 export function ClientLogoStrip() {
   return (
-    <section className="relative isolate bg-cream pb-8 pt-6 lg:pb-12 lg:pt-8" aria-label="Healthcare organizations">
+    <section className="relative isolate bg-cream pb-8 pt-6 lg:pb-12 lg:pt-8" aria-label="Supported healthcare claim formats">
       <div className="mx-auto max-w-[1200px] px-5 lg:px-8">
         <Reveal>
           <p className="text-center font-mono text-[11.5px] uppercase tracking-[0.18em] text-ink/45">
-            Built for revenue cycle teams in healthcare
+            Compatible with claim & remittance formats across major health systems
           </p>
           <div className="relative mt-8 py-6 sm:py-7">
             {/* Top feathered divider line */}

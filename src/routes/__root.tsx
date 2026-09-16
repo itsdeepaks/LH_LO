@@ -183,9 +183,10 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
         content: "Claims intelligence for healthcare revenue-cycle teams.",
       },
       { property: "og:type", content: "website" },
-      { property: "og:image", content: "/og-image.png" },
+      { property: "og:image", content: "https://lh.onlinescope.in/og-image.png" },
       { name: "twitter:card", content: "summary_large_image" },
-      { name: "twitter:image", content: "/og-image.png" },
+      { name: "twitter:image", content: "https://lh.onlinescope.in/og-image.png" },
+      { name: "robots", content: "noindex, nofollow" },
       { name: "generator", content: "Online Scope Studio" },
     ],
     links: [

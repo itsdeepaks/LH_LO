@@ -18,11 +18,11 @@ export const Route = createFileRoute("/_site/terms-of-use")({
         content: "Terms and conditions governing access to and use of the Liquidity Health website.",
       },
       { property: "og:type", content: "website" },
-      { property: "og:url", content: "/terms-of-use" },
+      { property: "og:url", content: "https://lh.onlinescope.in/terms-of-use" },
       { name: "twitter:card", content: "summary_large_image" },
       { name: "robots", content: "noindex, nofollow" },
     ],
-    links: [{ rel: "canonical", href: "/terms-of-use" }],
+    links: [{ rel: "canonical", href: "https://lh.onlinescope.in/terms-of-use" }],
   }),
   component: TermsPage,
 });

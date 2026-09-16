@@ -21,10 +21,11 @@ export const Route = createFileRoute("/_site/security")({
           "Data handling, hosting, privacy and access control at Liquidity Health, stated plainly.",
       },
       { property: "og:type", content: "website" },
-      { property: "og:url", content: "/security" },
+      { property: "og:url", content: "https://lh.onlinescope.in/security" },
       { name: "twitter:card", content: "summary_large_image" },
+      { name: "robots", content: "noindex, nofollow" },
     ],
-    links: [{ rel: "canonical", href: "/security" }],
+    links: [{ rel: "canonical", href: "https://lh.onlinescope.in/security" }],
   }),
   component: SecurityPage,
 });

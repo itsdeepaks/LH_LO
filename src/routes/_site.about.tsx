@@ -20,10 +20,11 @@ export const Route = createFileRoute("/_site/about")({
         content: "Why Liquidity Health exists: a paid claim is not always the whole story.",
       },
       { property: "og:type", content: "website" },
-      { property: "og:url", content: "/about" },
+      { property: "og:url", content: "https://lh.onlinescope.in/about" },
       { name: "twitter:card", content: "summary_large_image" },
+      { name: "robots", content: "noindex, nofollow" },
     ],
-    links: [{ rel: "canonical", href: "/about" }],
+    links: [{ rel: "canonical", href: "https://lh.onlinescope.in/about" }],
   }),
   component: AboutPage,
 });

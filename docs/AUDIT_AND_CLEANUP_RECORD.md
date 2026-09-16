@@ -74,6 +74,9 @@ Prior to execution, a comprehensive codebase audit identified 20 issues across f
 | `public/apple-touch-icon.png` | **Created** | Official branded iOS/Safari touch icon installed (1024 × 1024, 495 KB). |
 | [`README.md`](file:///e:/Boom-Bam/LH-website/lh-lo/LH_LO/README.md) | **Modified** | Full product documentation authored under Online Scope Studio. |
 | [`AGENTS.md`](file:///e:/Boom-Bam/LH-website/lh-lo/LH_LO/AGENTS.md) | **Modified** | Established Online Scope Studio engineering guidelines and design preservation rules. |
+| [`src/routes/__root.tsx`](file:///e:/Boom-Bam/LH-website/lh-lo/LH_LO/src/routes/__root.tsx) | **Modified** | Configured fully-qualified absolute Open Graph and Twitter image URLs (`https://lh.onlinescope.in/og-image.png`). Injected `<meta name="robots" content="noindex, nofollow">` to protect staging review environment from indexing. |
+| `src/routes/_site.*.tsx` | **Modified** | Updated all route meta configurations with absolute `og:url` and `canonical` URLs targeting `https://lh.onlinescope.in/`. Replaced all em-dash (`—`) and en-dash (`–`) characters with clean hyphens (`-`). |
+| [`src/components/home/ClientLogoStrip.tsx`](file:///e:/Boom-Bam/LH-website/lh-lo/LH_LO/src/components/home/ClientLogoStrip.tsx) | **Modified** | Reframed strip heading to *"Compatible with claim & remittance formats across major health systems"* with updated aria-label, ensuring visual logos demonstrate format interoperability rather than an implied client endorsement. |
 | [`.gitignore`](file:///e:/Boom-Bam/LH-website/lh-lo/LH_LO/.gitignore) | **Modified** | Added `.lovable/` and `.vercel/` to git ignore rules. |
 | `bunfig.toml` | **Deleted** | Removed prototyping release configuration. |
 | `.lovable/` | **Deleted** | Removed all internal plan files, project manifests, and north-star documents. |

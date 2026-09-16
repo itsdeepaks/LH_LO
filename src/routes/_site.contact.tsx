@@ -20,10 +20,11 @@ export const Route = createFileRoute("/_site/contact")({
           "Free claims analysis, demos, partnership, sales and investor enquiries - one short form.",
       },
       { property: "og:type", content: "website" },
-      { property: "og:url", content: "/contact" },
+      { property: "og:url", content: "https://lh.onlinescope.in/contact" },
       { name: "twitter:card", content: "summary_large_image" },
+      { name: "robots", content: "noindex, nofollow" },
     ],
-    links: [{ rel: "canonical", href: "/contact" }],
+    links: [{ rel: "canonical", href: "https://lh.onlinescope.in/contact" }],
   }),
   component: ContactPage,
 });
@@ -46,8 +47,8 @@ const ORG_TYPES = [
 
 const VOLUMES = [
   "Under 500 claims per month",
-  "500 – 2,000 claims per month",
-  "2,000 – 10,000 claims per month",
+  "500 - 2,000 claims per month",
+  "2,000 - 10,000 claims per month",
   "Over 10,000 claims per month",
   "Not sure",
 ];

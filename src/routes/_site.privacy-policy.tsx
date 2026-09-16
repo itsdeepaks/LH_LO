@@ -18,11 +18,11 @@ export const Route = createFileRoute("/_site/privacy-policy")({
         content: "Privacy policy and data governance commitments for Liquidity Health.",
       },
       { property: "og:type", content: "website" },
-      { property: "og:url", content: "/privacy-policy" },
+      { property: "og:url", content: "https://lh.onlinescope.in/privacy-policy" },
       { name: "twitter:card", content: "summary_large_image" },
       { name: "robots", content: "noindex, nofollow" },
     ],
-    links: [{ rel: "canonical", href: "/privacy-policy" }],
+    links: [{ rel: "canonical", href: "https://lh.onlinescope.in/privacy-policy" }],
   }),
   component: PrivacyPage,
 });

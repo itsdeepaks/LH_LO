@@ -31,10 +31,11 @@ export const Route = createFileRoute("/_site/platform")({
           "Claims and remittances become claim-level intelligence: potential underpayments, denials, payer and coding patterns, and payment timing.",
       },
       { property: "og:type", content: "website" },
-      { property: "og:url", content: "/platform" },
+      { property: "og:url", content: "https://lh.onlinescope.in/platform" },
       { name: "twitter:card", content: "summary_large_image" },
+      { name: "robots", content: "noindex, nofollow" },
     ],
-    links: [{ rel: "canonical", href: "/platform" }],
+    links: [{ rel: "canonical", href: "https://lh.onlinescope.in/platform" }],
   }),
   component: PlatformPage,
 });

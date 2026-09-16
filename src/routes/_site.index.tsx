@@ -31,10 +31,11 @@ export const Route = createFileRoute("/_site/")({
           "See whether claims were reimbursed as expected, understand why reimbursement differs, and know which claims deserve attention next.",
       },
       { property: "og:type", content: "website" },
-      { property: "og:url", content: "/" },
+      { property: "og:url", content: "https://lh.onlinescope.in/" },
       { name: "twitter:card", content: "summary_large_image" },
+      { name: "robots", content: "noindex, nofollow" },
     ],
-    links: [{ rel: "canonical", href: "/" }],
+    links: [{ rel: "canonical", href: "https://lh.onlinescope.in/" }],
   }),
   component: Home,
 });
